@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    const ContractAddress = '0x271BBE930d4891e178f58a3CB8256f52A48D4C36';
-    const ContractABI = $.getScript("/js/contractabi.json");
+    const ContractAddress = '0xEf1b443Da446a59919483Fa8eaDe650C5fc3F07C';
+    //const ContractABI = $.getScript("/js/contractabi.json");
 
     $('#linkHome').click(function () { showView("viewHome") });
     $('#linkSubmitItem').click(function () { showView("viewSubmitItem"); });
