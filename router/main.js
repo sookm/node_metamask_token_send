@@ -10,8 +10,8 @@ const web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io
 const contractAddress = '0xEf1b443Da446a59919483Fa8eaDe650C5fc3F07C'
 
 const contractOwner = {
-	addr: '0x37FD6dAb0001C5e0e24338c22fE1B45debb7F0cE',
-	key: 'b6e67e26c888c2bbdb19f0fffa7ed2e8d54c4c763ffaee9a69503d4116ffba82'
+	addr: '',
+	key: ''
 };
 
 module.exports = function (app) {
