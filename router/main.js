@@ -7,11 +7,11 @@ const web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io
 //console.log("contractAbi:", contractAbi);
 
 
-const contractAddress = '0x271BBE930d4891e178f58a3CB8256f52A48D4C36'
+const contractAddress = '0xEf1b443Da446a59919483Fa8eaDe650C5fc3F07C'
 
 const contractOwner = {
-	addr: 'yourAccount',
-	key: 'yourPrivateKey'
+	addr: '0x37FD6dAb0001C5e0e24338c22fE1B45debb7F0cE',
+	key: '0x48cd85fa59e7d8341ef59227904ae0b7d8efc9b60499bd80542bdb39bd80f657'
 };
 
 module.exports = function (app) {
